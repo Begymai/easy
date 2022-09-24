@@ -1,0 +1,55 @@
+.cardItem{
+    width: 210px;
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 40px;
+    padding: 20px 30px 34px 20px;
+    box-sizing: border-box; 
+    .card__top{
+        position: relative;
+    }   
+    .card__liked{
+        position: absolute;
+        top: 0;
+        left: 0;
+        cursor: pointer;
+    }
+    h2{
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 14px;
+        color: #000000;
+        margin: 14px 0;
+    }   
+    .card__img{
+        max-width: 100%;
+    }
+    .card__bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        img{
+            cursor: pointer;
+        }
+    }
+    .price{
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 11px;
+        text-decoration: uppercase;
+        color: #bdbdbd;
+
+        p{
+            font-weight: 700;
+            font-size: 14px;
+            color: #000000;
+        }
+    }
+    h2{
+        font-weight: 400;
+        font-size: 14px;
+        color: #000000;
+        margin: 14px 0;
+    }   
+}
